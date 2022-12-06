@@ -1,6 +1,6 @@
 {
   "name": "tikko",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "packageManager": "pnpm@7.18.0",
   "author": "Ray <nn_201312@163.com> (@so1ve)",
   "description": "A project helper.",
