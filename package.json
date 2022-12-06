@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "packageManager": "pnpm@7.18.0",
   "author": "Ray <nn_201312@163.com> (@so1ve)",
-  "description": "",
+  "description": "A project helper.",
   "keywords": [],
+  "type": "module",
   "homepage": "https://github.com/so1ve/tikko#readme",
   "repository": {
     "type": "git",
@@ -55,14 +56,15 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@clerc/plugin-completions": "^0.8.1",
-    "@clerc/plugin-help": "^0.8.1",
-    "@clerc/plugin-not-found": "^0.8.1",
-    "@clerc/toolkit": "^0.8.1",
-    "clerc": "^0.8.1"
+    "@antfu/ni": "^0.18.8",
+    "@clerc/plugin-completions": "^0.8.7",
+    "@clerc/plugin-help": "^0.8.7",
+    "@clerc/plugin-not-found": "^0.8.7",
+    "@clerc/toolkit": "^0.8.7",
+    "clerc": "^0.8.7",
+    "giget": "^1.0.0"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.18.8",
     "@babel/types": "^7.20.5",
     "@so1ve/eslint-config": "^0.32.1",
     "@types/node": "^18.11.11",

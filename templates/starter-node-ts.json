@@ -1,0 +1,6 @@
+{
+  "name": "starter-node-ts",
+  "defaultDir": "node-ts-pkg",
+  "url": "https://github.com/so1ve/starter-node-ts",
+  "tar": "https://codeload.github.com/so1ve/starter-node-ts/tar.gz/refs/heads/main"
+}
