@@ -35,8 +35,8 @@
     }
   },
   "bin": {
-    "tk": "bin/tikko.mjs",
-    "tikko": "bin/tikko.mjs"
+    "tk": "./dist/cli.mjs",
+    "tikko": "./dist/cli.mjs"
   },
   "files": [
     "dist"
