@@ -1,6 +1,6 @@
 {
   "name": "tikko",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "packageManager": "pnpm@7.18.0",
   "author": "Ray <nn_201312@163.com> (@so1ve)",
   "description": "A project helper.",
@@ -35,8 +35,8 @@
     }
   },
   "bin": {
-    "tk": "./dist/cli.mjs",
-    "tikko": "./dist/cli.mjs"
+    "tk": "bin/tikko.mjs",
+    "tikko": "bin/tikko.mjs"
   },
   "files": [
     "dist"
