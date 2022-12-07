@@ -1,0 +1,1 @@
+export { newProjectCommand } from "./newProject";
