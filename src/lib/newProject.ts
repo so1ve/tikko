@@ -20,7 +20,7 @@ export const newProject = async (template: string, projectPath: string) => {
     write: true,
     all: true,
     cwd: dir,
-    loglevel: "error",
+    loglevel: "info",
   });
   await run(parseNi, []);
 };
