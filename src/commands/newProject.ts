@@ -1,9 +1,9 @@
-import { defineCommandWithHandler } from "clerc";
-import { prompt } from "@clerc/toolkit";
+import { defineCommand } from "clerc";
+import { prompt } from "clerc/toolkit";
 
 import { newProject } from "../lib";
 
-export const newProjectCommand = defineCommandWithHandler({
+export const newProjectCommand = defineCommand({
   name: "new",
   description: "Create a new project, clones template from github.",
   parameters: [
@@ -16,7 +16,7 @@ export const newProjectCommand = defineCommandWithHandler({
       description: "Template URL",
     },
   },
-  handler: async (ctx) => {
+  handler: async(ctx) => {
     let projectPath = ctx.parameters.projectPath || "";
     let template = ctx.flags.template || "";
     if (!projectPath) {
